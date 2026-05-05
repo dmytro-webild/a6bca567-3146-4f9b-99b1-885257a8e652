@@ -59,7 +59,7 @@ export default function LandingPage() {
       mediaAnimation="slide-up"
       avatars={[
         {
-          src: "http://img.b2bpic.net/free-photo/shopping-concept-close-up-portrait-young-beautiful-attractive-redhair-girl-smiling-looking-camera_1258-119094.jpg",          alt: "Shopping concept close up portrait young beautiful attractive redhair girl smiling looking at camera"},
+          src: "http://img.b2bpic.net/free-photo/shopping-concept-close-up-portrait-young-beautiful-attractive-redhair-girl-smiling-looking-at-camera_1258-119094.jpg",          alt: "Shopping concept close up portrait young beautiful attractive redhair girl smiling looking at camera"},
         {
           src: "http://img.b2bpic.net/free-photo/portrait-excited-happy-woman-holding-shopping-bags-showing-plastic-credit-card-smiling-amazed-standing-against-pink-background_1258-300368.jpg",          alt: "Portrait of excited happy woman holding shopping bags and showing plastic credit card smiling amazed standing against pink background"},
         {
@@ -195,6 +195,7 @@ export default function LandingPage() {
   <div id="contact" data-section="contact">
       <ContactText
       text="Get in touch with our team for personalized support. We are available 24/7 via email at support@shophub.com or phone at +1 (800) 555-0199. Visit our headquarters at 123 Retail Ave, Commerce City."
+      useInvertedBackground={false}
       background={{
         variant: "gradient-bars"
       }}
